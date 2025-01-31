@@ -16,21 +16,84 @@ test_1 (__main__.lab2b.test_1)
 test_2 (__main__.lab2b.test_2)
 [Lab 2] - [Investigation 1] - [Part 1] - using input() - Test for correct shebang line: ./lab2b.py ... ok
 test_3 (__main__.lab2b.test_3)
-[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test output with sending input "Jon" "20": ./lab2b.py ... FAIL
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test output with sending input "Jon" "20": ./lab2b.py ... ok
+test_4 (__main__.lab2b.test_4)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test output with sending input "Jen" "25": ./lab2b.py ... ok
+test_0 (__main__.lab2c.test_0)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for file creation: ./lab2c.py ... ok
+test_1 (__main__.lab2c.test_1)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for errors with 2 args: ./lab2c.py Jon 20 ... ok
+test_2 (__main__.lab2c.test_2)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for correct shebang line: ./lab2c.py ... ok
+test_3 (__main__.lab2c.test_3)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jon 20 ... ok
+test_4 (__main__.lab2c.test_4)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jen 25 ... ok
+test_0 (__main__.lab2d.test_0)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for file creation: ./lab2d.py ... ok
+test_1 (__main__.lab2d.test_1)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors with 0 args: ./lab2d.py ... ok
+test_2 (__main__.lab2d.test_2)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for correct shebang line: ./lab2d.py ... ok
+test_3 (__main__.lab2d.test_3)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon ... ok
+test_4 (__main__.lab2d.test_4)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon 20 ... ok
+test_5 (__main__.lab2d.test_5)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon 20 More ... ok
+test_6 (__main__.lab2d.test_6)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 0 args: ./lab2d.py ... ok
+test_7 (__main__.lab2d.test_7)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 1 args: ./lab2d.py Jon ... ok
+test_8 (__main__.lab2d.test_8)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 2 args: ./lab2d.py Jon 20 ... ok
+test_9 (__main__.lab2d.test_9)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 3 args: ./lab2d.py Jon 20 More ... ok
+test_0 (__main__.lab2e.test_0)
+[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for file creation: ./lab2e.py ... ok
+test_1 (__main__.lab2e.test_1)
+[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for errors: ./lab2e.py ... ok
+test_2 (__main__.lab2e.test_2)
+[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for correct shebang line: ./lab2e.py ... ok
+test_4 (__main__.lab2e.test_4)
+[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for output: ./lab2e.py ... ok
+test_0 (__main__.lab2f.test_0)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test for file creation: ./lab2f.py ... ok
+test_1 (__main__.lab2f.test_1)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test for errors with with 0 arguments): ./lab2f.py ... ok
+test_2 (__main__.lab2f.test_2)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test for correct shebang line: ./lab2f.py ... ok
+test_4 (__main__.lab2f.test_4)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test for errors: ./lab2f.py 10 ... ok
+test_5 (__main__.lab2f.test_5)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test for errors: ./lab2f.py 5 ... ok
+test_6 (__main__.lab2f.test_6)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test output with: ./lab2f.py 10 ... ok
+test_7 (__main__.lab2f.test_7)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test output with: ./lab2f.py 5 ... ok
+test_0 (__main__.lab2g.test_0)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for file creation: ./lab2g.py ... ok
+test_1 (__main__.lab2g.test_1)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for errors: ./lab2g.py ... ok
+test_2 (__main__.lab2g.test_2)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for correct shebang line: ./lab2g.py ... ok
+test_4 (__main__.lab2g.test_4)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for errors: ./lab2g.py 5 ... ok
+test_5 (__main__.lab2g.test_5)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for errors: ./lab2g.py 10 ... ok
+test_6 (__main__.lab2g.test_6)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test output with no arguments: ./lab2g.py ... ok
+test_7 (__main__.lab2g.test_7)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test output with: ./lab2g.py 5 ... ok
+test_8 (__main__.lab2g.test_8)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test output with: ./lab2g.py 10 ... ok
+test_0 (__main__.lab2out.test_0)
+[Lab 2 Output and Email Verification] ... skipped 'checked after submission. Students: ignore'
 
-======================================================================
-FAIL: test_3 (__main__.lab2b.test_3)
-[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test output with sending input "Jon" "20": ./lab2b.py
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/dmbenjamin/ops445/lab2/./CheckLab2.py", line 110, in test_3
-    self.assertEqual(stdout, expected_output, msg=error_output)
-AssertionError: b'Name: Jon\nAge: 20\nHi Jon, you are 20 years old.\n' != b'Name: Age: Hi Jon, you are 20 years old.\n' : output is not correct (HINT: pay attention to spelling, uppercase letters, spaces, and punctuation)
+Ran 44 tests in 0.268s
 
-----------------------------------------------------------------------
-Ran 8 tests in 0.047s
-
-FAILED (failures=1)
+OK (skipped=1)
 OPS445 Lab Report - System Information for running ./CheckLab2.py
 =================================================================
     User login name: dmbenjamin
@@ -40,5 +103,5 @@ OPS445 Lab Report - System Information for running ./CheckLab2.py
     Python version:  3.12.3 (main, Nov  6 2024, 18:32:19) [GCC 13.2.0]
     OS Platform: linux
     Working Directory: /home/dmbenjamin/ops445/lab2
-    Start at: Thu Jan 30 19:29:12 2025
+    Start at: Fri Jan 31 00:54:36 2025
 =================================================================
